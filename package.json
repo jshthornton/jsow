@@ -19,7 +19,7 @@
     "aws-sdk": "^2.1.50",
     "lodash": "^3.10.1",
     "q": "^1.4.1",
-    "gogen": "git+ssh://git@github.com/jshthornton/gogen.git#1.0.0"
+    "gogen": "git+ssh://git@github.com/jshthornton/gogen.git#1.0.1"
   },
   "devDependencies": {
     "chai": "^3.2.0",
