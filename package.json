@@ -1,0 +1,28 @@
+{
+  "name": "jsow",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jshthornton/jsow.git"
+  },
+  "author": "Joshua Thornton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jshthornton/jsow/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1.50",
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "gogen": "git+ssh://git@github.com/jshthornton/gogen.git#1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  }
+}
