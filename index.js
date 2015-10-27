@@ -1,4 +1,4 @@
-var AWS = require('aws-sdk');
+/*var AWS = require('aws-sdk');
 var Q = require('q');
 var _ = require('lodash');
 var deployment = require('./lib/deployment');
@@ -23,15 +23,7 @@ var filterInstances = function(stacks, layers, instances) {
 };
 
 var staggerInstances = function(stacks, layers, instances) {
-	var partition = (instances.length / 2) >> 0;
-
-	var rightSide = instances.splice(0);
-	var leftSide = rightSide.splice(0, partition);
-
-	return [
-		leftSide,
-		rightSide
-	];
+	
 };
 
 var stackId = 'XXX';
@@ -57,7 +49,7 @@ deployment.retrieveDescriptions(opsworks, stackId).spread(function(stacks, layer
 		console.log('hello');
 	}, function() {
 		console.log(arguments);
-	});*/
+	});
 }).catch(function() {
 	console.log(arguments);
 });
@@ -66,4 +58,4 @@ deployment.retrieveDescriptions(opsworks, stackId).spread(function(stacks, layer
 
 module.exports = {
 	
-};
+};*/
